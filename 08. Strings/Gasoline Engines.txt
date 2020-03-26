@@ -1,0 +1,989 @@
+Gasoline Engines
+
+
+Gasoline Engines        0
+Combustion        1
+1.1 Normal combustion        1
+1.1.1 Stages of combustion in SI engine        2
+1.1.2 Effect of spark timing on Indicator Diagram        4
+1.1.3 Effect of Fuel/Air Ratio on Indicator Diagram        4
+1.1.4 Rate of pressure rise        5
+1.1.4 Analysis of cylinder pressure data        6
+1.1.3 Flame Speed Pattern        8
+1.1.4. Combustion process characterisation        9
+1.1.5 Flame structure and speed        10
+1.1.6 Cyclic variations in combustion, partial burning and misfire        11
+1.2 Combustion Phase Indicators        13
+1.3 Combustion influences        21
+1.3.1 Nature of fuel and Air/Fuel Ratio        22
+1.3.2. Composition of the mixture        22
+1.3.3 Initial temperature and pressure        23
+1.3.4 Compression ratio        23
+1.3.5. Load        23
+1.3.6 Spark Advance        23
+1.3.7 Turbulence and engine speed        24
+1.3.8 Electrode gap of the spark plug        24
+1.4 Irregular combustion (Knocking, Surface ignition, Pre-Ignition)        25
+Turbocharging        36
+2.1 Introduction        36
+2.2 Principles of operation        36
+2.3 Stall and Surge (Centrifugal and axial compressor control)        36
+2.4 STATIC INSTABILITY        39
+2.5 DYNAMIC INSTABILITY        41
+2.5.1 CHARACTERISTICS OF SURGE        41
+2.5.2. CONSEQUENCES OF SURGE        42
+2.5.3 Choke        42
+Fuels        43
+Mathematical Model of Gasoline Engines        46
+4.1 Introduction        46
+4.2 Physics        47
+4.2.1 Ideal Gas Law        48
+4.2.2 First Law of Thermodynamics        48
+4.2.3 Airflow Passing through an Orifice        49
+4.3 Mean-Value Model        49
+4.4 Speed Control        50
+4.4.1 Idle Speed Control Scheme        50
+4.4.2 Starting Speed Control        51
+4.5 Air-Fuel Ratio Control        53
+
+
+
+
+
+
+1. Combustion
+In a conventional spark-ignition engine the fuel and air are mixed together in the intake system, induced through the intake valve into the cylinder, where mixing with residual gas takes place, and then compressed. Under normal operating conditions, combustion is initiated towards the end of the compression stroke at the spark plug by an electric discharge. Following inflammation, a turbulent flame develops, propagates through this essentially premixed fuel, air, burned gas mixture until it reaches the combustion chamber walls, and then extinguishes. 
+* Internal combustion engines fundamentals (John Heywood)
+
+
+The combustion in a gaseous fuel-air mixture ignited by a spark is characterized by a rapid development of a flame that starts from the point of ignition and spreads outwards in a continuous manner. When the flame spread continues to the end of the combustion chamber without any abrupt change in its speed and shape, combustion is called normal. When the unburned mixture ahead of the flame ignites and burns before the flame reaches it, the phenomenon is called autoignition. When there is a sudden increase in the reaction rate, accompanied by a sudden pressure rise forming pressure waves, the phenomenon is called detonation which causes engine knock.
+        When combustion is initiated by a spark, it is called controlled combustion and when combustion is initiated by a hot spot, it is called uncontrolled combustion. … Uncontrolled combustion is associated with preigntion and running-on. Autoignition and detonation come under the category of abnormal combustion. In this case fuel-air mixture ignites spontaneously without an ignition source.
+* Fundamentals of Internal Combustion Engines (H.N. Gupta)
+
+
+1.1 Normal combustion
+Towards the end of the compression stroke the cylinder contains more or less a homogenous mixture of vaporized fuel, air and residual gases. A single intense and high temperature spark is produced between the spark plug electrodes and as it passes from one electrode to the other it leaves a thin thread of flame. Combustion spreads to the envelope of the mixture containing the thread a rate depending primarily on the temperature of the flame front and secondarily on the temperature and density of the surrounding envelope. Thus a small hollow nucleus of flame at first grows up gradually and as the flame front expands with steadily increasing speed it travels across the chamber until finally the whole of the mixture is engulfed. Depending on the degree of turbulence in the cylinder, the flame front wrinkles, thus presenting a greater surface area from which heat is radiated; hence the flame speed is increased enormously, and this speeds up the combustion process.
+* Fundamentals of Internal Combustion Engines (H.N. Gupta)
+
+
+
+
+
+
+
+
+1.1.1 Stages of combustion in SI engine
+Following spark discharge, there is a period during which the energy release from the developing flame is too small for the pressure rise due to combustion to be discerned. As the flame continues to grow and propagate across the combustion chamber, the pressure then steadily rises above the value it would have in the absence of combustion. The pressure reaches a maximum after TC but before the cylinder charge is fully burned, and then decreases as the cylinder volume continues to increase during the remainder of the expansion stroke.
+Combustion starts before the end of the compression stroke, continues through the early part of the expansion stroke, and ends after the point in the cycle at which the peak cylinder pressure occurs.
+* Internal combustion engines fundamentals (John Heywood)
+
+
+  
+
+Figure 1 - Pressure-crank angle diagram showing stages of combustion in a spark-ignition engine
+Figure 1 shows the pressure-crank angle (p-T) diagram indicating three stages of combustion in a spark-ignition engine. The spark is initiated at point A, at point B pressure rise against the motoring curve is observed, point C shows the point of maximum pressure and point D indicates the completion of the combustion process. The p-T diagram for motoring is obtained when the engine is not firing. Thus AB represents the first stage, BC the second stage and CD the third stage of combustion.
+It is important to understand the two terms, i.e. combustion and burning. Combustion proceeds until the point of chemical equilibrium is reached, on the other hand burning is that part of the combustion process which is associated with the travel of a flame front across the cylinder. When the flame reaches the far end of the cylinder, the charge is all burned and the burning process is over. The combustion of the fuel will be incomplete because of the high temperature causing dissociation.
+* Fundamentals of Internal Combustion Engines (H.N. Gupta)
+
+
+Stage AB
+This stage is called ignition lag or preparation phase. It corresponds to the time for the growth and development of a self-propagating nucleus of the flame. The starting point of the first stage is the point A, where the spark is produced and the end of the stage is marked with point B, where the first measurable pressure rise against the motoring curve is observed. The first stage is mainly a chemical process and depends on the nature of the fuel, temperature and pressure of the fuel-air mixture, the concentration of the residual from the previous cycle present in the cylinder and the chemical reaction rate. It is also influenced by local turbulence.
+Although the first stage of combustion is called the ignition lag, as it is analogous to the delay period of compression-ignition engine, and actually the nucleus of the combustion appears instantaneously near the spark plug electrodes; initially the flame spreads very slowly and the fraction of the burned mixture is very little, so there is no appreciable pressure rise against the motoring curve.
+* Fundamentals of Internal Combustion Engines (H.N. Gupta)
+
+
+Stage BC
+This stage is called the main stage. It corresponds to the propagation of the flame practically at a constant speed. The starting point of the second stage is taken as point B, where the first measurable pressure rise against the motoring curve is observed. The end of the second stage is marked with point C, where the maximum pressure is attained. This stage is both a physical and a chemical process. The heat release depends on the chemical composition and on the prevailing temperatures and pressures and the degree of turbulence in the cylinder. During this stage heat transfer to the cylinder wall is low, since the burning mixture comes in contact with a small part of the cylinder wall. The rate of pressure rise is almost proportional to the rate of heat release because during this stage, the combustion chamber volume does not change much.
+* Fundamentals of Internal Combustion Engines (H.N. Gupta)
+
+
+Stage CD
+This stage is called afterburning. Although the point C indicates the completion of the flame travel, it does not follow that the whole of the heat of the fuel has been liberated at this point. Even after the passage of the flame, during expansion some of the constituents re-associate and liberate heat. The starting point of the third stage is usually taken at the instant when maximum pressure is reached on the indicator diagram (point C). The end of this stage is marked with point D. This point corresponds to the point where equilibrium is reached and after which the products of combustion are assumed to be frozen. During this stage the flame speed decreases and the rate of combustion is slow. Since the expansion stroke starts before this stage with the piston moving away from TDC, there will be pressure fall during this stage.
+* Fundamentals of Internal Combustion Engines (H.N. Gupta)
+        
+1.1.2 Effect of spark timing on Indicator Diagram
+If the start of the combustion process is progressively advanced before TC, the compression stroke work transfer (which is from the piston to the cylinder gases) increases. If the end of the combustion process is progressively delayed by retarding the spark timing, the peak cylinder pressure occurs later in the expansion stroke and is reduced in magnitude. These changes reduce the expansion stroke work transfer from the cylinder gases to the piston. The optimum timing which gives the maximum brake torque - called maximum brake torque, or MBT, timing - occurs when the magnitudes of these two opposing trends just offset each other. The optimum spark setting will depend on the rate of flame development and propagation, the length of the flame travel path across the combustion chamber, and the details of the flame termination process after it reaches the wall.
+Empirical rules for relating the mass burning profile and maximum cylinder pressure to crank angle at MBT timing are often used. For example, with optimum spark timing:1) the maximum pressure occurres at about 16° after TC. 2) half the charge is burned at about 10° after TC.
+  
+
+Figure 2 - a) cylinder pressure versus crank angle for over advanced spark timing (50°), MBT timing (30°), and retarded timing (10°) b) effect of spark advance on brake torque at constant speed and (A/F) at wide open throttle (WOT)
+* Internal combustion engines fundamentals (John Heywood)
+
+
+1.1.3 Effect of Fuel/Air Ratio on Indicator Diagram
+        Figure 3 shows the effect of mixture strength on indicator diagrams. The fuel/air ratio of the charge influences the rate of combustion and the amount of heat evolved. The maximum flame speed occurs when the mixture strength for hydrocarbon fuels is about 10% rich. When the mixture is made leaner or is further enriched, the flame speed decreases. Lean mixtures release less thermal energy, resulting in lower flame temperature and hence lower flame speed. Very rich mixtures suffer incomplete combustion, hence release less thermal energy resulting in low flame speed. Indicator diagrams for rich, stoichiometric and weak mixtures correspond to equivalence ratio 1,1; 1,0; 0,9 respectively.
+* Fundamentals of Internal Combustion Engines (H.N. Gupta)
+
+
+  
+
+Figure 3 - Effect of mixture strength on p-V and p-T diagrams
+
+
+1.1.4 Rate of pressure rise
+        The rate of pressure rise during the combustion process influences the peak pressure, the power produced and the smoothness with which the forces are transmitted from the gas to the piston. The rate of pressure rise depends on the mass rate of combustion of the mixture in the cylinder.
+        Figure 4 shows the pressure-crank angle diagrams for a high, normal and a low rate of combustion. It is observed from the figure that the low rate of combustion requires more ignition advance because of the longer time required to complete combustion. A higher rate of combustion increases the rate of pressure rise and generally produces peak pressures at a point closer to TDC.
+        A higher peak pressure closer to TDC is generally desirable because it produces a greater force on the piston acting through a larger portion of the power stroke, and hence increases the power output. There is a practical limit on the rate of pressure rise. The higher rate of pressure rise may result in rough running of the engine because of vibrations and jerks. If the rate of pressure rise is excessively high, it may result in abnormal combustion called detonation. A compromise between these two opposing factors is necessary. This can be achieved by designing and operating the engine in such a way that approximately one-half of the pressure rise takes place as the piston reaches the TDC, thus ensuring peak 
+pressure to be reasonably close to the beginning of the power stroke, while maintaining smooth engine operation.
+* Fundamentals of Internal Combustion Engines (H.N. Gupta)
+
+
+  
+
+Figure 4 - Pressure-crank angle diagram for different rates of combustion
+
+
+1.1.4 Analysis of cylinder pressure data
+        Cylinder pressure is usually measured with piezoelectric pressure transducers. This type of transducer contains a quartz crystal. One end of the crystal is exposed through a diaphragm to the cylinder pressure; as the cylinder pressure increases, the crystal is compressed and generates an electric charge which is proportional to the pressure. A charge amplifier is then used to produce an output voltage proportional to this charge. 
+* Internal combustion engines fundamentals (John Heywood)
+
+
+  
+
+Figure 5 - a typical engine indicating measurement system (Internal Combustion Engine
+Indicating Measurements - André V. Bueno, José A. Velásquez and Luiz F. Milanez)
+
+
+During the measurement of in-cylinder pressure, the transducer is exposed to a transient heat flow that causes continuous changes in its temperature. These temperature changes modify the sensitivity of the piezoelectric element and impose thermal stresses in the diaphragm and in the sensor housing, generating spurious forces that act on the quartz element and cause additional distortion of the signal provided by the transducer. The inaccuracy due to these effects receives the name of temperature drift.
+
+
+  
+
+Figure 6 - The piezoelectric pressure transducer. (Internal Combustion Engine
+Indicating Measurements - André V. Bueno, José A. Velásquez and Luiz F. Milanez)
+
+
+Accurate cylinder pressure versus crank angle data can be obtained with these systems provided the following steps are carried out: (1) the correct reference pressure is used to convert the measured pressure signals to absolute pressures; (2) the pressure versus crank angle (or volume) phasing is accurate to within about 0,2°; (3) the clearance volume is estimated with sufficient accuracy; (4) transducer temperature variations (which can change the transducer calibration factor) due to the variation in wall heat flux during the engine cycle are held to a minimum. Log p versus Log V plots can be used to check the quality of cylinder pressure data. The first three of the above requirements can be validated using log p - log V diagrams for a motored engine. If the effects of thermal cycling are significant, the expansion stroke on the log p - log V plot for a firing engine shows excessive curvature. 
+Figure 7 shows pressure-volume data from a firing spark-ignition engine on both a linear p-V and a log p - log V diagram. On the log p - log V diagram the compression process is a straight line of slope 1,3. The start of combustion can be identified by the departure of the curve from the straight line. The end of combustion can be located approximately in similar fashion; the expansion stroke following combustion is essentially linear with slope 1,33.
+Log p - log V plots such as fig. 5 approximately define the start and end of combustio, but do not provide a mass fraction burned profile. One well established technique for estimating the mass fraction burned profile from the pressure and volume data is that developed by Rassweiller and Withrow.
+* Internal combustion engines fundamentals (John Heywood)
+
+
+  
+
+Figure 7 - a) Pressure-volume diagram; b) log p - log(V/Vmax) plot
+
+
+1.1.3 Flame Speed Pattern
+The flame across the chamber follows a pattern similar to that shown in figure 8. It shows the relation between the relative distance travelled by the flame across the chamber with respect to the relative time taken by the flame to travel across the chamber. The slope of the curve indicates the flame speed.
+
+
+  
+
+Figure 8 - Relative distance of flame travel across the chamber vs. relative time of flame travel across the chamber
+
+
+The flame travel pattern divides the combustion process into four distinct phases:
+1. Spark initiation
+2. Early flame development
+3. Flame propagation
+4. Flame termination
+* Fundamentals of Internal Combustion Engines (H.N. Gupta)
+
+
+1.1.4. Combustion process characterisation
+        The mass fraction burned profiles as a function of crank angle in each individual cycle … have a characteristic S-shape. The rate at which fuel-air mixture burns increases from a low value immediately following the spark discharge to a maximum about halfway through the burning process and then decreases close to zero  as the combustion process ends. It proves convenient to use these mass fraction burned or energy release fraction curves  to characterise different stages of the spark-ignition combustion process by their duration in crank angles, thereby defining the fraction of the engine cycle that they occupy.
+* Internal combustion engines fundamentals (John Heywood)
+
+
+The “mass fraction burned” (MFB) follows the same pattern as the flame speed. Initially the flame speed is so low, so the MFB is also less. As the flame speed during the second stage increases, the MFB also increases rapidly. The major portion of the mass is burned during this stage. During the last stage the flame speed reduces again, so the remainder of the unburned charge which is little gets burned too.
+* Fundamentals of Internal Combustion Engines (H.N. Gupta)
+
+
+        Flame-development angle ?Td. The crank angle interval between the spark discharge and the time when a small but significant fraction of the cylinder mass has burned or the fuel chemical energy has been released. Usually this fraction is 10%, though other fractions such as 1% and 5% have been used. (this angle is sometimes called the ignition delay)
+        Rapid-burning angle ?Tb . The crank angle interval required to burn the bulk of the charge. It is defined as the interval between the end of the flame-development stage (usually mass fraction burned or energy release fraction of 10%) and the end of the flame-propagation process (usually mass fraction burned or energy release of 90%).
+        Overall burning angle ?To. The duration of the overall burning process. It is the sum of ?Td and ?Tb.
+* Internal combustion engine fundamentals (John Heywood)
+  
+
+Figure 9 - Definition of flame development angle and rapid-burning angle on mass fraction burned versus crank angle curve
+
+
+Mass fraction burned,
+where mb is the mass of the burned charge and mu is the mass of the unburned charge.
+
+
+1.1.5 Flame structure and speed
+        The combustion process in the spark-ignition engine takes place in a turbulent flow field. This flow field is produced by the high shear flows set up during the intake process and modified during compression. The importance of the turbulence to the engine combustion process was recognized long ago through experiments where the intake event, and the turbulence it generates, was eliminated and the rate of flame propagation decreased substantially. 
+        Mixture burning rate is strongly influenced by engine speed. It is well established that the duration of combustion in crank angle degrees only increases slowly with increasing engine speed. … the burning rate throughout the combustion process increases almost, though not quite, as rapidly as engine speed. Additionally, at a given engine speed, increasing in-cylinder gas velocities (e.g., with intake generated swirl) increases the burning rate.
+        It is also well established that unburned mixture composition and state affect the burning rate. Reducing the inlet pressure (and maintaining the ratio of exhaust to inlet pressure fixed to hold the residual gas fraction constant) increases both the flame development and rapid burning angles. The fuel-air equivalence ratio affects the burning rate. Both the flame development and burning angles show a minimum for slightly rich mixture (F ~ 1,2) and increase significantly as the mixture becomes substantially leaner than stoichiometric. The burned gas fraction in the unburned mixture, due to the residual gas fraction and any recycled exhaust gases, affect the burning rate: increasing the burned gas fraction slows down both flame development and propagation. … However, the relative importance of combustion chemistry effects depends on combustion chamber design and burn rate. Faster burning engines (which have higher turbulence) are less sensitive to changes in mixture composition, pressure, and temperature than are slower burning engines (which have lower turbulence).
+* Internal combustion engine fundamentals (John Heywood)
+
+
+  
+
+Figure 10 - Effect of engine sped of flame-development angle (0 to 10 percent burned) and overall burning angle (0 to 90 percent burned)
+
+
+1.1.6 Cyclic variations in combustion, partial burning and misfire
+        Observations of cylinder pressure versus time measurements from a spark-ignition engine, for successive operating cycles, shows that substantial variations on a cycle-by-cycle basis exist. Since the pressure development is uniquely related to the combustion process, substantial variations in the combustion process on a cycle-by-cycle basis are occurring. In addition to these variations in each individual cylinder, there can be significant differences in the combustion process and pressure development between the cylinders in a multicylinder engine. Cyclic variations in the combustion process are caused by variations in mixture motion within the cylinder at the time of spark cycle-by-cycle, variations in the mixing of fresh mixture and residual gases within the cylinder each cycle, especially in the vicinity of the spark plug. Variations between cylinders are caused by differences in these same phenomena, cylinder-to-cylinder.
+        Cycle-by-cycle variations are important for two reasons. First, since the optimum spark timing is set for the “average” cycle, faster-than-average cycles have effectively overadvanced spark-timing and slower-than-average cycles have retarded timing, so losses in power and efficiency result. Second, it is the extremes of the cyclic variations that limit the engine operation. The fastest burning cycles with their overadvanced spark timing are most likely to knock. Thus, the fastest burning cycles determine the engine’s fuel octane requirement and limit its compression ratio. The slowest burning cycles, which are retarded relative to optimum timing, are most likely to burn incompletely. Thus these cycles set the practical lean operating limit of the engine or limit the amount of exhaust gas recycle (used for NO emissions control) which the engine will tolerate. Due to cycle-by-cycle variations, the spark timing and average air/fuel ratio must always be compromises, which are not neccessarily the optimum for the average cylinder combustion process. Variations in cylinder pressure have been shown to correlate with variations in brake torque which directly relate to vehicle drivability.
+        An example of cycle-by-cycle variations in cylinder pressure and the variations in mixture burning rate that cause them are shown in figure 11. Pressure and gross heat-release rate [calculated from the cylinder pressure] for several successive cycles at mid-load, mid-speed point are shown as a function of crank angle. The maximum heat-release rate and the duration of the heat release or burning process vary by a factor of two from the slowest to the fastest burning cycle shown. The peak cylinder pressure varies accordingly. The faster burning cycles have substantially higher values of maximum pressure than do the slower burning cycles; with the faster burning cycles peak pressure occurs closer to TC.
+  
+  
+
+Figure 11 - Measured cylinder pressure and calculated gross heat release rate for ten cycles in single-cylinder SI engine operating at 1500 rev/min, F = 1, pinlet = 0,7 atm, MBT timing 25° BTC
+
+
+The heat-release rate data in fig. 11 show that there are cycle-by-cycle variations in the early stages of flame development (from zero to a few percent of the total heat release) and in the major portion of the combustion process - the rapid-burning phase - indicated by the variations in the maximum burning rate.
+Various measures of cycle-by-cycle combustion variability are used. It can be defined in terms of variations in the cylinder pressure between different cycles, or in terms of variations in the details of the burning process which cause the differences in pressure. The following quantities have been used:
+1. Pressure-related parameters. The maximum cylinder pressure pmax; the crank angle at which this maximum pressure occurs Tpmax; the maximum rate of pressure rise (dp/dT)max; the crank angle at which (dp/dT)max occurs; the indicated mean effective pressure.
+2. Burn-rate-related parameters. The maximum heat-release rate (net or gross); the maximum mass burning rate; the flame development angle ?Td and the rapid burning angle, ?Tb
+3. Flame front position parameters. Flame radius, flame front area, enflamed or burned volume, all at given times; flame arrival time at given locations.
+
+
+         One important measure of cyclic variability, derived from pressure data, is the coefficient of variation in indicated mean effective pressure. It is the standard deviation in imep divided by the mean imep, and is usually expressed in percent:
+
+
+
+        It defines the cyclic variability in indicated work per cycle, and it has been found that vehicle driveability problems usually result when COVimep exceeds about 10 percent.
+        Cylinder pressure data are often averaged over many cycles to obtain the mean cylinder pressure at each crank angle. The primary use of this average pressure versus crank angle data is in calculating the average indicated mean effective pressure (which is a linear function of p). Since combustion parameters are not linearly related to the cylinder pressure, analysis of the average pressure data will not necessarily yield accurate values of average combustion parameters. The error will be most significant when the combustion variability is largest. It is best to determine mean combustion parameters by averaging their values obtained from a substantial number of individual cycle analysis results. The number of cycles which must be averaged to obtain the desired accuracy depends on the extent of the combustion variability. For example, while 40 to 100 cycles may define imep to within a few percent when combustion is highly repeatable, several hundred cycles of data may be required when cyclic combustion variations are large.
+* Internal combustion engine fundamentals (John Heywood)
+*         Cyclic varion can reduced by using multiple igniton points, by increasing the engine speed and turbulence. Cyclic variation is greatly reduced by a tangentially-oriented swirl created by a shrouded inlet valve. A spark of extended duration also reduced cyclic variation.
+* Fundamentals of Internal Combustion Engines (H.N. Gupta)
+
+
+
+
+
+
+
+
+
+
+1.2 Combustion Phase Indicators 
+- A Comparison Between Combustion Phase Indicators for Optimal Spark Timing (Emiliano Pipitone)
+
+
+1 location of pressure peak (LPP or aPmax)
+2 location of maximum pressure rise (LMPR)
+3 location of 50% of mass fraction burned (MFB50 or CA50)
+4 location of maximum heat release rate (LMHR)
+5 value of relative pressure ratio 10 crank angle degree (ATDC PRM10)
+
+
+* Location of Pressure Peak (LPP). According to this criterion, spark advance is set to its best value when the pressure peak is found to be 14–16 crank angle degrees CAD after top dead center ATDC, apart from engine speed and load, and from other variables. This is one of the most encountered combustion phase indicators in literature, and requires pressure sampling at least for 30 deg ATDC see Fig. 12. The set point value is 14–16 crank angle degrees ATDC, and, as for all the other indicators, has been determined empirically and has not yet been theoretically explained.
+* Location of Maximum Pressure Rise (LMPR). Cook et al. in 1947 showed that under optimal spark advance, the maximum pressure rise occurs about 3 deg ATDC. Rarely encountered in literature among the combustion phase indicators, its evaluation requires pressure sampling in the interval 20 deg around top dead center TDC. 
+  
+
+Figure 12 - In-cylinder pressure and its derivative, 2500 rpm—IMEP 6 bar „LPP and LMPR are shown
+
+
+* Location of 50% of Mass Fraction Burned (MFB50). It is well known to internal combustion engine researchers that in cylinder pressure allows the evaluation of the fuel MFB: This can be accomplished following the procedure proposed by Rassweiler and Withrow, simple yet reliable, or by means of thermodynamic analysis, which instead requires to know wall heat transfer law. According to this criterion, spark timing is set to the best value when MFB reaches 50% about 9 deg ATDC. Compared to LPP and LMPR, this indicator requires a greater amount of calculus and data to sample: In-cylinder pressure must be acquired during almost the whole compression and expansion strokes. Moreover, unlike LPP and LMPR, absolute pressure values are needed for a correct MFB50 evaluation.
+
+
+* “However, the optimal CA50 setpoint is not deterministic and may vary with operation conditions, such as engine speed, load, variable valve timing (VVT), etc. Moreover, the optimal CA50 setpoint may be affected by engine aging, and other disturbances like lubricating oil, cooling water, and atmosphere temperature variations”
+* Cylinder pressure based combustion phase optimization and control in spark-ignited engines (Yahui ZHANG, Tielong SHEN)
+
+
+* Because these criteria are solely based upon observations and may change at different operating conditions, each algorithm still requires some calibration effort. It is clear that the combustion process has to be matched with the engine cylinder volume change to attain the best torque. However, there is no sound theory to support the rationale that peak cylinder pressure must occur around 15 °ATDC or that 50% burned must happen around 9 °ATDC for the MBT timing conditions.
+* MBT Timing Detection and its Closed-Loop Control Using In-Cylinder Pressure Signal (Guoming G. Zhu, Chao F. Daniels and James Winkelman)
+
+
+* One may view a combustion process as both a chemical process and a physical process. It is usually described by mass fraction burned (MFB) versus crank angle. The mass fraction burned not only signifies how much chemical energy is released at each crank angle during the combustion, but also how fast the chemical energy is released. When graphed, MFB has a characteristic S shape and changes from zero to one from the beginning to the end of combustion. Figure 13 shows a typical mass fraction burned for an engine operating at MBT and its first and second derivatives. The first derivation of MFB can be treated as the rate of heat release or the velocity of the combustion process, while the second derivative can be treated as the acceleration of the combustion process. 
+* MBT Timing Detection and its Closed-Loop Control Using In-Cylinder Pressure Signal (Guoming G. Zhu, Chao F. Daniels and James Winkelman)
+  
+
+Figure 13 - mass fraction burned and its derivatives
+
+
+* The key event associated with the combustion process begins with the spark event. After the spark discharge, the flame kernel starts to form. Once the flame kernel becomes stable, it develops very fast and the combustion process reaches its maximum acceleration point. Then the rapid burning period starts and reaches its maximum heat release velocity very quickly. After this point, the combustion process slows down and attains its maximum deceleration point. Because the combustion cannot complete instantaneously and the chamber volume is constantly changing, choice of alignment of these critical points versus crank angle may have significant impact on how much useful work can be accomplished during the combustion process. If one ignites the mixture too soon, the pressure increase due to the heat  release before the Top Dead Center (TDC) would generate negative work. If one doesn't ignite the mixture on time, the heat release process would not be efficient enough to utilize the small volume advantages at TDC. Therefore, the decision on where to ignite the combustion mixture becomes a critical factor of obtaining best torque.  
+* The desired engine spark timing is a function of MBT, misfire and knock spark timing limits, as well as engine physical limitations, etc.
+* MBT Timing Detection and its Closed-Loop Control Using In-Cylinder Pressure Signal (Guoming G. Zhu, Chao F. Daniels and James Winkelman)
+
+
+* If we normalize the net pressure by the overall net pressure increase at the end of the combustion, the result is mass fraction burned.
+* When the fuel is leaner or EGR rate is higher, the flame speed will be slower. Therefore, it will take a longer time for the flame to propagate and the peak pressure velocity point will occur later. At low load conditions, because the pressure and temperature are relatively lower, the flame speed is also slower and the peak velocity point happens later. As the engine speed increases, the turbulence becomes stronger and the flame speed is faster, and the peak pressure velocity point occurs slightly earlier. 
+  
+
+Figure 14 - Net pressure acceleration vs. crank angle
+
+
+* Location of Maximum Heat Release Rate (LMHR). This parameter has not been found in literature among the combustion phase indicators; Pipitone and Beccari, who introduced this indicator in a previous work, considered it a valid alternative to MFB50, since it presents similar features, with a lower sensitivity to pressure measurement errors. The author of the present work introduced the parameter LMHR for a comparison with MFB50: its evaluation does not require any extra calculus effort, since MFB is normally obtained by integration, and it is less prone to errors due to bad pressure referencing or measurement. Naturally, its set point value should be near to that of MFB50, i.e., about 9 deg ATDC with optimal spark timing. 
+  
+
+Figure 15 - MFB and heat release rate, 2500 rpm, 6 bar BMEP (MFB50 and LMHR are shown)
+
+
+* Value of Relative Pressure Ratio 10 Crank Angle Degree ATDC (PRM10). Also this indicator was proposed 18 as an alternative to the MFB50; Matekunas et al., in fact, defined it as being PR the pressure ratio between the measured fired pressure and the evaluated motored pressure  deg ATDC generally PR values stay between 1 and 4. Under MBT spark timing, the relative pressure ratio PRM10 should assume the value 0.55, quite similar to MFB50, which should reach its 50% around 9 deg ATDC. The ratio between measured and motored pressure the latter calculated using a polytropic law in effect follows the concept proposed by Rassweiler and Withrow, i.e., the heat released by combustion is closely related to the pressure rise besides the compression effect. The advantage in the use of the PRM10 instead of MFB50 theoretically relies on the easier calculation and fewer data to sample: four points should be enough, two taken during compression stroke for polytropic index evaluation and the other two taken 10 and 55 CAD ATDC. As a matter of fact, measurement noise and signal referencing absolute pressure values are needed may require the pressure sampling for a great part of the compression stroke to correctly evaluate the expansion polytropic coefficient. Moreover, since the expansion polytropic index is often different from the compression one, both of them should be used: This requires a complete pressure sampling during expansion stroke, and makes PRM almost equal to MFB. Unlike all the other indicators, PRM10 is a dimensionless number between 0 and 1, and decreases with a forward shifting of the combustion. It could be argued that the indicated mean effective  pressure IMEP could be the most valid parameter for optimal spark timing control, since it represents the total amount of energy received by the piston during a whole cycle. The author compared the spark timing control achievable using IMEP rather than torque which means BMEP and found great differences, as showed in Fig. 16. It can be clearly seen that the maximum IMEP spark advance may be quite different from the MBT spark timing. This is due to mechanical efficiency, which can vary strongly with IMEP and has a great influence on the real engine output, that is, BMEP. Using the experimental data collected for this work, the performance differences due to IMEP driven spark timing have been calculated for each operative condition: The maximum differences in terms of spark advance and performance loss are reported in Table 1. 
+
+
+  
+
+Figure 16 - BMEP and IMEP as a function of spark advance 3500 rpm, ?=0.95
+* The test performed permitted first of all a better understanding of the efficiency loss due to a bad spark timing management: the graph in Fig. 17, traced by means of all the experimental data acquired, shows that a 1% loss can be caused by a spark advance error of 4 deg, while a 10 deg error can cause up to a 6% loss. These results can help us to assess the allowable spark advance error with respect to optimal value: accepting, for example, a 0.2% loss in torque, extrapolation from the lower bound in Fig. 16 shows that spark advance should remain in the range of 1.8 deg from the optimal value. 
+  
+
+Figure 17 - Percentage efficiency loss due to bad spark advance setting (1500 to 3500 rpm, 3 bar and 6 bar BMEP)
+
+
+* The typical result of one complete spark sweep test with constant speed, load, and A/F ratio is represented in Fig. 18: here, engine torque and combustion phase indicators are plotted against spark advance. Two immediate simple observations can be drawn: engine torque exhibits a square-law dependence on spark advance a good second order polynomial regression was confirmed by every test, while all the indicators change linearly with spark advance a narrow linear correlation was found for every operative conditions, which is a desirable feature for the pilot variable of a feedback control.
+  
+
+Figure 18 - Engine torque and combustion phase indicators as a function of spark timing (1500 rpm, ?=1.1)
+  
+
+Figure 19 - Indicators’, optimal values and dispersion range (for all engine field)
+
+
+* The graphs in Fig. 20 show the measured optimal values for each of the indicators with varying engine speed, two load conditions, and stoichiometric mixture: As can be seen, and confirmed by closer examinations, engine speed has a certain influence on every indicator in the higher load case, while for the lower load case a clear relationship with engine speed can be found only for LMPR and PRM10; the latter, moreover, is the only one that showed a quadratic dependence.
+
+
+  
+
+Figure 20 - Indicators versus engine speed „stoichiometric mixture, (3 bar and 6 bar BMEP)
+
+
+* The data recorded at different A/F permitted also to evaluate the influence of mixture strength on the combustion phase indicators: As pointed out by the left graphs in Fig. 21, all of them showed a certain dependence on A/F at low engine speed and medium load; as can be seen, in these operative conditions, all the angle based indicators LPP, LMPR, MFB50, and LMHR increase with increasing A/F up to stoichiometric mixture, then start decreasing. 
+
+
+
+
+  
+
+Figure 21 - Indicators versus mixture strength
+
+
+* It must be noted, however, that mixture composition changes have a negligible effect on the indicators’ set point values, as attested by the results in Fig.19: In fact, the variation ranges and the optimal values obtained at stoichiometric mixture do not differ significantly from those obtained considering also the test performed with different A/F values. Therefore, mixture strength can be considered to have no importance for a feedback spark timing control driven by combustion phase indicators.
+
+
+
+
+1.3 Combustion influences
+
+
+        The first phase of a combustion process is called the ignition lag. This is the period between initiation and flame development. It is a chemical process. The ignition lag in terms of crank angle is 10° to 20° and of the order of milliseconds. As the ignition lag decreases, the rate of pressure rise and the maximum pressure achieved increase.
+
+
+1.3.1 Nature of fuel and Air/Fuel Ratio
+        Ignition lag depends on the nature of the fuel. If the self-ignition temperature of the fuel is higher, it is difficult to burn the fuel and therefore the ignition lag will be longer. It has been found that the ignition lag is the shortest for a mixture slightly richer than the stoichiometric as shown in figure 22. The ignition lag becomes longer as the mixture becomes lean or very rich.
+
+
+  
+
+Figure 22 - Effect of mixture strength on ignition lag
+
+
+1.3.2. Composition of the mixture
+        The composition of the mixture affects the rate of combustion and the amount of heat evolved, and changes the pressure and temperature of the gases in an engine cylinder. Figure 3 shows the effect of mixture strength on indicator diagrams. The angle of ignition Tig is set for the maximum brake torque (MBT) condition. For a rich mixture with the equivalence ratio between 1.1 and 1.2, the duration of the first stage of combustion, the ignition lag and the duration of the main phase are all minimum, resulting in the maximum rate of pressure rise (dp/dT). The flame speed, the heat liberation and consequently the power developed by the engine are the maximum. When the equivalence ratio is less than 1.1, the energy content is reduced, hence the duration of the first phase of combustion increases. The duration of the main phase of combustion in the second stage changes slightly, resulting in reduction in maximum pressure and also reduction in the rate of pressure rise (dp/dT). These could be improved by slightly advancing the spark timing.
+        For a lean mixture with the equivalence ratio between 0,85 and 0,9, the power output is reduced but this range of equivalence ratio corresponds to the minimum brake specific fuel consumption and represents the most economical range.
+
+
+1.3.3 Initial temperature and pressure
+        The rate of chemical reaction depends to a greater extent on temperature but to a smaller extent on pressure. Increasing the initial temperature and pressure increase the temperature and pressure at the point of ignition, therefore the ignition lag decreases.
+
+
+1.3.4 Compression ratio
+        The temperature and pressure at the point of ignition increase with the increase in compression ratio, therefore the ignition lag reduces. High compression ratios also reduce the concentration of the residual gas and therefore the ignition lag is further reduced.
+...
+        A high compression ratio increases the surface-to-volume ratio of the combustion chamber, thus increasing the relative amount of mixture near the walls. This part of the mixture afterburns in the third phase. All this retards the MBT timing at higher compression ratios. The combustion duration up to the point of maximum pressure also decreases. The maximum pressure approaches TDC. Heat liberated up to the point of maximum pressure is reduced and the importance of the afterburning process in the third phase increases.
+
+
+1.3.5. Load
+        When the load is reduced, the power of an engine is reduced by throttling. The initial pressure and the pressure at the point of ignition decrease and the residual gases in the mixture increase. The first phase of combustion prolongs and the combustion process loses its stability and frequently cannot be resumed in some cycles, causing cyclic variations. To overcome this difficulty to some extent, a rich mixture is used which may ensure proper combustion, but the combustion process may continue during a substantial portion of the expansion stroke. This is because of interrupted ignition at large advance angles when the compression pressures are still very low.
+        At part load the combustion of fuel in the spark-ignition engine is poor, causing a large amount of products of incomplete combustion in the exhaust including carbon monoxide, oxides of nitrogen and hydrocarbons which are responsible for air pollution. Part load combustion is improved by using a rich mixture but it causes wastage of fuel. These are the main shortcomings of the spark-ignition engines.
+
+
+1.3.6 Spark Advance
+        As the spark timing is retarded, i.e. when the spark is produced towards the TDC, the compression process at the point of ignition is covered more, resulting in an increase in temperature and pressure, and therefore the ignition lag reduces. Advancing the spark timing increases the ignition lag.
+* Fundamentals of Internal Combustion Engines (H.N. Gupta)
+
+
+Figure 23 shows O2 and HC concentration as a function of timing angle. Advance timing angle causes higher in cylinder peak pressure. This higher pressure pushes more of the fuel-air mixture into crevices (most significantly the space between the piston crown and cylinder walls) where the flame is quenched and mixture is left unburned. Additionally, the temperature late in the cycle, when the mixture comes out of these crevices, is lower at more advance ignition timing. The later temperature means that the hydrocarbons and oxygen do not react. This increase the concentration of oxygen in the exhaust and unburned hydrocarbons.
+* Study and the effects of ignition timing on gasoline engine performance and emissions (J. Zareei & A. H. Kakaee)
+
+
+  
+
+Figure 23 - The relationship between O2 and HC concentration versus ignition timing at 3400 RPM and intake manifold pressure of 100 kPa
+
+
+1.3.7 Turbulence and engine speed
+        Ignition lag is not much affected by the intensity of turbulence. Turbulence is directly proportional to engine speed. Therefore, the engine speed does not affect the ignition lag much in terms of milliseconds. However, as the engine speed increases and keeping the time in milliseconds almost fixed, the crank angle in degrees increases linearly with the speed. For this reason it becomes necessary to advance the spark timing at higher speeds by using the ignition advance mechanism.
+        Excessive turbulence of the charge in vicinity of the spark plug causes flame quenching, since it increases the rate of heat transfer from the combustion zone and leads to unstable development of the flame nucleus. That is why the spark plug is usually located in a small recess in the wall of the combustion chamber.
+        
+1.3.8 Electrode gap of the spark plug
+        A suitable spark plug electrode gap is necessary to establish the flame nucleus. If the gap is too small, quenching of the flame nucleus may result and if the gap is too large, the spark intensity is reduced. In both the cases the range of the fuel/air ratio is reduced for the development of the flame nucleus.
+        Figure 24 shows the range of equivalence ratios, which could be used for different electrode gaps and for different compression ratios of the engine. As the compression ratio is increased, the range of the equivalence also increases for a given electrode gap. A higher electrode gap is required for an engine with lower compression ratio.
+
+
+  
+
+Figure 24 - Effect of electrode gap on the equivalence ratio for different compression ratios
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.4 Irregular combustion (Knocking, Surface ignition, Pre-Ignition)
+
+
+        Knock is the most important abnormal combustion phenomenon. It’s name comes from the noise that results from the autoignition of a portion of the fuel, air, residual gas mixture ahead of the advancing flame. As the flame propagates across the combustion chamber, the unburned mixture ahead of the flame - called the end gas - is compressed, causing it’s pressure, temperature, and density to increase. Some of the end-gas fuel-air mixture may undergo chemical reactions prior to normal combustion. The products of these reactions may then autoignite: i.e. spontaneously and rapidly release a large part or all of their chemical energy. When this happens, the end gas burns very rapidly, releasing its energy at a rate 5 to 25 times that characteristic of normal combustion. This causes high frequency pressure oscillations inside the cylinder that produce the sharp metallic noise called knock.
+        The presence or absence of knock reflects the outcome of a race between the advancing flame front and the pre-combustion reactions in the unburned end gas. Knock will not occur if the flame front consumes the end gas before these reactions have time to cause the fuel-air mixture to autoignite. Knock will occur if the pre-combustion reactions produce autoignition before the flame front arrives.
+* Internal combustion engines fundamentals (John Heywood)
+
+
+Over time, developments in combustion technology and engine cooling, together with developments in fuel technology have led to a steady increase in the compression ratios that are capable of being employed. However, in practice production engine compression ratios still lie significantly below the empirical optimum value of around 16:1 to 17:1.
+
+
+  
+
+Figure k1 - Trends in compression ratio for gasoline engines over the last century
+
+
+* Minimising autoignition for optimum efficiency in high specific output spark ignited engines (Paul Freeland, Marco Warth, Bernd Mahr)
+  
+
+* Knock: the noise associated with autoigntion of a portion of the fuel-air mixture ahead of the advancing flame front. Autoignition is the spontaneous ignition and the resulting very rapid reaction of a portion or all the fuel-air mixture.
+
+
+Figure k1.1 - Definition of combustion phenomena - normal and abnormal (knock and surface ignition) - in a spark-ignition engine
+
+
+
+
+
+
+
+
+
+
+Wild ping is a variation of knocking surface ignition which produces sharp cracking sounds in bursts. It is thought to result from early ignition of the fuel-air mixture in the combustion chamber by glowing loose deposit particles. It disappears when the particles are exhausted and reappears when fresh particles break loose from the chamber surfaces. Rumble is a relatively stable low-frequency noise (600 to 1200 Hz) phenomenon associated with deposit-caused surface ignition in high-compression-ratio engines. This type of surface ignition produces very high rates of pressure rise following ignition. Rumble and knock can occur together. Run-on occurs when the fuel-air mixture within the cylinder continues to ignite after the ignition system has been switched off. During run-on, the engine usually emits knocklike noises. Run-on is probably caused by compression ignition of the fuel-air mixture, rather than surface ignition. Runaway surface ignition is surface ignition that occurs earlier and earlier in the cycle. It is usually caused by overheated spark plugs or valves or other combustion chamber surfaces. It is the most destructive type of surface ignition and can lead to serious overheating and structural damage to the engine.
+Of all the engine surface-ignition phenomena, preignition is potentially the most damaging. Any process that advances the start of combustion from the timing that gives maximum torque will cause higher heat rejection because of the increasing burned gas pressures and temperatures that result. Higher heat rejection causes higher temperature components which, in turn, can advance the preignition point even further until critical components can fail. The parts which can cause preignition aree those least well colled and where deposits build up and provide additional thermal insulation: primary examples are spark plugs, exhaust valves, metal asperities such as edges of head cavities or piston bowls.
+Many methods of knock detection and characterization have been used. The human ear is a surprisingly sensitive knock detector and is routinely used in determining the octane requirement of an engine - the required fuel quality the engine must have to avoid knock. Knock detectors used for knock control systems normally respond to the vibration-driven acceleration of parts of the engine block caused by knocking combustion pressure waves. … For more detailed studies of knock in engines, the piezoelectric pressure transducer is the most useful monitoring device. Often the transducer signal is filtered so that the pressure fluctuations caused by knock are isolated.
+* Internal combustion engines fundamentals (John Heywood)
+
+
+A recent study conducted by MAHLE [Taylor J, et al; Analysis of the Actual Operation with Substantially Downsizing Engine; MTZ 0512013 vol 74] based on a large sample of driving records illustrates the engine residency trends of modern downsized engines very well, for different driving styles over different types of road. This data is shown graphically in figure k2 below, and highlights the fact that, even under “gentle” driving, downsized engines operate within the regions of the speed-load range where engine efficiency is reduced due to the knock limit.
+
+
+  
+
+Figure k2 - Operating residency points for a 1600kg ‘C’ Class Downsized Vehicle for different driving styles
+* Minimising autoignition for optimum efficiency in high specific output spark ignited engines (Paul Freeland, Marco Warth, Bernd Mahr)
+
+
+* At high loads, auto-ignition occurs in the unburned gas ahead of the propagating flame front after the onset of spark-induced regular combustion. Dependent on the thermodynamic state of the surrounding mixture, the resulting reaction front can propagate more or less rapidly throughout the remaining unburned volume. If the reaction emerges as a detonation, a shock wave is emitted, which passes through the combustion chamber and excites its eigenmodes. The characteristic pressure oscillations can be recognized in the pressure trace shown in Fig. z1. The resulting structural vibrations are responsible for the characteristic knocking sound which gave its name to the phenomenon.
+* Irregular combustion in supercharged spark ignition engines – pre-ignition and other phenomena (C Dahnz and U Spicher)
+  
+
+Figure z1 - Pressure trace of knocking combustion
+
+
+* Knocking is a resonance phenomenon as the pressure wave caused by the local autoignition with locally high pressure of unburned end-gas compressed by the burned gas with flame propagation comes back and forth inside the cylinder. When the pressure wave propagates in sound speed, the amplitude of wave becomes double at the wall as the phase of wave turns over at the wall end. As a result, heat transfer to the wall or the opposite-side wall will be enhanced, leading to a damage of the engine by this abnormal combustion. … The real issue is the damage of engine by the strong pressure oscillation not by the autoignition itself. For example, HCCI engines follow autoignition that occurs simultaneously in the whole space of cylinder, but not cause knocking. (Of course, the steep pressure rise brings about noise and vibration issues.)
+* Reduction in knocking intensity of an SI engine by in-cylinder temperature stratification (Yasuo Moriyoshi, Tatsuya Kuboyama, Taku Kondo, Hiroshi Sono)
+  
+
+Figure z2 - Knocking intensity
+
+
+* In some engines, another type of knocking combustion can be observed. This phenomenon is referred to as super-knock, mega knock, or extreme knock. It is characterized by pressure amplitudes which are significantly higher than in common knock. Additionally, super-knock occurs stochastically so that it is not controllable in the same manner as common knock.
+* Irregular combustion in supercharged spark ignition engines – pre-ignition and other phenomena (C Dahnz and U Spicher)
+  
+
+Figure z3 - Pressure amplitudes for extreme knock (top) and controllable knock (bottom)
+
+
+* As already mentioned, knock, as well as extreme knock, cause an elevated heat transfer to the walls. As a consequence, parts of the combustion chamber can be significantly heated up. This can promote earlier auto-ignition in the end gas, which results in even stronger knock and thus a heating of the critical component. As a result, this effect referred to as surface ignition can act self-preserving or even self amplifying. An example for this behaviour is shown in Fig. z4. The diagram shows the pressure traces of four subsequent engine cycles with surface ignition and, as a reference, one of a regular combustion at the same operating point.
+* Pre-ignition is a phenomenon occurring in a stochastic manner at operating points with low engine speed and high load. Until now, it has not been possible to predict the occurrence of pre-ignition reliably, not even in a test engine equipped with pressure transducers at the cylinders and ports. The number of cycles exhibiting pre-ignition is very low, even under operating conditions chosen to provoke it.
+* Irregular combustion in supercharged spark ignition engines – pre-ignition and other phenomena (C Dahnz and U Spicher)
+
+
+
+
+  
+
+Figure z4 - Pressure traces of consecutive cycles with surface ignition
+
+
+* During recent years, with the appearance of highly supercharged downsizing engines, a new combustion phenomenon has been observed in these engines, especially in full-load operation at low engine speed. This phenomenon, referred to as premature ignition or pre-ignition, shows some similarities to extreme knock as well as to surface ignition. As in the case of surface ignition, combustion obviously starts before the spark plug fires. But the phenomenon is neither self-preserving nor self-amplifying. Instead, pre-ignition occurs stochastically, just like extreme knock. All three phenomena are noticeable by very high knock amplitudes. Figure z5 shows pressure traces for cycles with pre-ignition and regular combustion at the same operating point.
+* Owing to the enormous knock amplitudes, pre-ignition is considered one of the most important issues in the development of future downsizing engines. But as it is the newest and thus least explored of the described phenomena, there is still very little literature about it.
+
+
+  
+
+Figure z5 - Pressure traces of regular combustion and pre-ignition
+
+
+
+
+  
+
+Figure z6 - Estimation of pre-ignition mechanisms
+
+
+* During the assessment of mechanisms suspected to promote pre-ignition, most of the mechanisms shown in Fig. z6 turned out to be impossible or at least very improbable for the investigated configuration. One mechanism showed to be the most probable. This mechanism ascribes the occurrence of pre-ignition to the presence of highly ignitable droplets of lubricant oil in the combustion chamber. It is assumed that these droplets are released from the top land during the deceleration phase before the piston reaches top dead centre. A schematic illustration is given in Fig. z7.
+  
+
+Figure z7 - Droplet release from top land
+
+
+Surface ignition is ignition of the fuel-air charge by overheated valves or spark plugs, by glowing combustion-chamber deposits, or by any other hot spot in the engine combustion chamber: it is ignition by any source other than normal spark ignition. It may occur before the spark plug ignites the charge (pre-ignition) or after normal ignition (post-ignition). It may produce a single flame or many flames. Uncontrolled combustion is most evident and its effects most severe when it results from pre-ignition. Surface ignition may result in knock. 
+* Internal combustion engine fundamentals (John Heywood)
+
+
+
+
+
+
+
+
+
+
+1. Turbocharging
+
+
+2.1 Introduction
+
+
+
+
+
+
+2.2 Principles of operation
+* Centrifugal compressors realize compression by transferring momentum to the fluid and the subsequent diffusion to convert the kinetic energy into pressure. The momentum transfer takes place at the doubly curved blades of the impeller that is mounted on a rotating shaft. Diffusion takes place in the annular channel of increasing radius around the impeller, usually referred to as diffuser. A sketch of a centrifugal compressor is shown in Figure x2.
+* The diffusion process can be explained by the Bernoulli equation that states that the sum of kinetic energy ½ mv2, potential energy mgh and pressure head p/? is constant. In the widening diffuser channel, either vaned or vaneless, the flow decelerates and this decrease in kinetic energy implies an increase in potential energy and pressure.
+  
+
+Figure x2 - A centrifugal compressor with a vaned diffuser
+
+
+2.3 Stall and Surge (Centrifugal and axial compressor control)
+* Surge is a dynamic instability that occurs in dynamic compressors. Surge can also occur in axial and centrifugal pumps and blowers, but the occurrence is less frequent and the damage less severe. 
+* Stall is another instability that occurs in dynamic compressors and is sometimes confused with surge. The consequences of stall are usually less severe.
+* As the flow through a compressor is reduced, a point is reached where the flow pattern becomes unstable. If the flow oscillates in localized regions around the rotor, the instability is called stall.
+* Stall can develop into a more global type of instability called surge. In surge the average flow across the annulus goes through large amplitude oscillations. The frequency of these oscillations ranges from 0.5 to 10 hertz. The surge frequency depends on the designs of both the compressor and piping system
+* Rotating stall is an aerodynamic instability confined to the compressor internals that is characterized by a distortion of the circumferential flow pattern. One or more regions of stagnant flow, so-called stall cells, travel around the circumference of the compressor at 10–90% of the shaft speed, see also Figure y1. The stall cells reduce or completely block the flow, resulting in large vibratory stresses and thermal loads on the compressor blades. While the effects of rotating stall are known, details of stalled flow, for example the number of stall cells, their size and speed relative to the impeller, are far from being completely understood.
+* Centrifugal compressor surge: modeling and identification for control (van Helvoirt, J.)
+  
+
+Figure y1 - Illustration of three stall cells in an impeller
+
+
+* Rotating stall introduces a gradual or abrupt drop of the pressure rise as is depicted in Figure y2. Moreover, rotating stall can introduce hysteresis into the system, implying that the flow rate has to be increased beyond the stall initiation point in order to bring the compression system out of its stalled operating mode.
+* Centrifugal compressor surge: modeling and identification for control (van Helvoirt, J.)
+
+
+  
+
+Figure y2 - Illustrative compressor maps in the presence of rotating stall
+
+
+* In contrast to rotating stall, during surge the average mass flow is unsteady but circumferentially uniform. In other words, surge is a one-dimensional system instability while rotating stall is a two-dimensional compressor instability. Furthermore, surge only occurs in compressible flow systems whereas rotating stall occurs in both incompressible and compressible flows
+* Centrifugal compressor surge: modeling and identification for control (van Helvoirt, J.)
+
+
+
+
+* Figure x3 shows a compressor map for a variable-speed centrifugal compressor. A compressor map is the single most important piece of information for describing surge. A compressor map shows the compressor characteristic curve for different operating conditions. Each curve traces the rise in discharge pressure developed by the compressor as the suction flow is varied for a given operating condition (such as speed). The operating condition is not limited to that shown by the few curves plotted but is continuously adjustable to intermediate values. The X axis is almost always volumetric flow in acfm at the stated suction temperature, pressure, and molecular weight. The Y axis is either the discharge pressure in psia, the ratio of discharge pressure to suction pressure (dimensionless), or the differential pressure rise from suction to discharge in psi. The compressor characteristic curves supplied by the compressor manufacturer cover the negative sloped region and end where the slope approaches zero. (A negative slope means the pressure will change in the opposite direction for a change in flow, and a zero slope means the pressure will not change at all for a change in flow.) If a curve is drawn through the point of zero slope for each characteristic curve, the region to the left of this line is where the instabilities of surge and stall occur (Surge Curve). The characteristic curve to the left of this curve is difficult to obtain, but its general shape resembles that shown in Figure x3. The negative flow portion of the curve can be found by supplying pressurized gas to the compressor discharge to force a steady negative flow. The positive sloped portion of the curve is obtained by smoothly connecting a third-order polynomial curve between the negative sloped negative flow and the positive flow portions of the curve.
+* Surge can be better understood by visualizing a block or throttle valve closing downstream of the compressor. As this valve closes, the suction flow decreases, and the operating point moves to the left along a characteristic curve. If the compressor speed or the guide vane position does not change, the operating point eventually passes by the point of zero slope on the characteristic curve. Just to the left of this point, which is the intersection of the surge curve with the characteristic curve, the pressure developed by the compressor is less than the pressure in the piping between the compressor discharge and the closing valve. The forward flow through the compressor stops and reverses direction. The gas flows from the discharge piping back through the compressor to the suction piping. The pressure in the discharge piping starts to drop. When this pressure is below the pressure developed by the compressor, forward flow starts again. If the gas in the discharge piping is still trapped by the closing block or throttle valve, the gas pressure builds up and the surge cycle is repeated. Note that the alternating pressure buildup and decay cycle does not require the flow to actually reverse direction but only to alternately decrease below or increase above the flow rate through the block or throttle valve. Only in severe surges does the flow through the compressor actually reverse direction.
+
+
+  
+
+Figure x3 - Compressor Map
+
+
+2.4 STATIC INSTABILITY
+* Static instability is a uniform (non-oscillatory) growing deviation. Static instability will occur when the slope of the compressor characteristic curve is greater than the slope of the demand load curve. As previously mentioned, the demand load curve is a plot of how the pressure drop in the system (due to piping, equipment, and valve resistance) increases with flow. 
+  
+
+Figure x4 -  Static Instability Criterion
+
+
+* Figure x4 illustrates how the criterion for static instability can be checked by drawing the demand load curve on a compressor map. The compressor map shows stability at operating point 1 but static instability at operating point 2 where the compressor curve slope is steeper than the load curve slope. Since the compressor curve and the load curve are both steady-state curves, this instability criterion can be checked at one steady state or a succession of steady states without knowledge of the system dynamics; hence the name, static instability. An electrical circuit analogy consists of a voltage or current source and a resistance. In this analogy, voltage represents pressure, current represents flow, and electrical resistance represents piping, equipment, and valve resistance. If the compressor characteristic curve is nearly horizontal, which is typical for centrifugal compressors, the circuit has a nonideal voltage source. If the compressor characteristic curve is nearly vertical, which is typical for axial compressors, the circuit has a nonideal current source. This circuit analogy has no dynamic components such as inductors or capacitors so the current flow does not vary with time if the system is stable. The circuit develops static instability if the slope of the source curve is greater than the slope of the resistance curve for voltage versus current. If the slope of the resistance is always positive (voltage drop always increases as current increases) and the slope of the source curve is always negative (voltage rise always decreases as current increases), the circuit is stable. If the slope of the source curve is positive and greater than the slope of the resistance curve, the following sequence of events occurs for any disturbance that causes an increase in voltage output:
+(1) Increase in source voltage
+(2) Increase in voltage (driving force) across the resistance
+(3) Increase in current
+(4) Increase in source voltage (sequence repeats)
+
+
+The corresponding sequence for a compressor system is: 
+(1) Increase in compressor pressure
+(2) Increase in pressure (driving force) across the load
+(3) Increase in flow
+(4) Increase in compressor pressure (sequence repeats)
+
+
+* Static instability occurs only if the compressor system can reach an operating point on the positive sloped portion of the compressor characteristic curve. Normally the flow drops precipitously when the operating point reaches the zero sloped portion of the compressor curve and surge oscillations develop, which is a dynamic instability.
+
+
+2.5 DYNAMIC INSTABILITY
+* Dynamic instability is characterized by growing oscillations.  Surge is a dynamic instability that develops into a limit cycle. Stall is not a dynamic instability because the amplitude of the oscillations decreases (decays) with time. 
+
+
+2.5.1 CHARACTERISTICS OF SURGE
+* Deep surge starts with a precipitous drop in flow. The flow will typically drop from its set point to its minimum (possibly negative) in less than 0.05 second. No other physical phenomenon can cause such a drop in flow.
+* The period of the surge oscillation (time between successive peaks in flow) is shorter than the control loop period unless fast instruments are used and the controller is tuned tight. The surge period is typically less than 2 seconds, while the loop period is usually greater than 4 seconds. Since the surge period is shorter than the loop period, by the time the control loop reacts to a particular portion of the surge cycle, that portion of the surge cycle is long gone. The corrective action by the control loop may become in phase with subsequent surge cycles and can accentuate the severity of the surge.
+* The plenum pressure does not precipitously drop as does suction flow at the start of surge. Also the oscillation amplitude in pressure is usually less than that in flow during surge. Therefore surge counters or backup control systems that try to detect surge by pressure measurement are liable to experience false or missed surge counts or trips.
+
+
+2.5.2. CONSEQUENCES OF SURGE
+* The rapid flow reversals cause extensive radial vibration and axial thrust displacement. The reheating of the same mass of gas during each surge cycle causes a large temperature increase. 
+
+
+* Surge is a dangerous instability and can occur e.g. during a gear shift under acceleration, where a throttle closing causes a fast reduction in mass flow. The mass flow reduction produces an increase in pressure ratio over the compressor and if the turbo does not slow down fast enough the pressure ratio will be too high and the mass flow will revert through the compressor. This lowers the pressure, and the compressor is then again able to build pressure. This increases the pressure ratio and the surge cycle can then be repeated. The oscillating mass flow can damage, and even destroy, the turbo and can cause undesired noise.
+* Surge and Choke Capable Compressor Model (Oskar Leufven and Lars Eriksson)
+
+
+2.5.3 Choke
+* Choking occurs when the local velocity, usually in the impeller exit or diffuser, reaches the speed of sound.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Fuels
+* The octane rating is a measure of the tendency of a fuel to auto-ignite. The lower the octane rating the more likely it is that auto-ignition will occur.
+* The scale is an arbitrary one. Two compounds were chosen, heptane (C7H16) and 2,2,4-trimethylpentane (CH3C(CH3)2CH2CH(CH3)CH3). 
+*   
+
+Figure f1 - reference fuels
+
+
+* Heptane has a high tendency to auto-ignite, so it was given an octane number of 0. On the other hand, 2,2,4-trimethylpentane has a low tendency to auto-ignite, so it was given a rating of 100.
+* A mixture of these two compounds containing 95% of 2,2,4-trimethylpentane is said to have an octane number of 95 (2,2,4-trimethylpentane was formerly known as iso-octane, hence the terms “octane number” or “octane rating”). A mixture of compounds with an identical tendency to auto-ignite, under the same conditions of compression, would thus also be given an octane rating of 95. A compound that is less likely to auto-ignite than pure 2,2,4-trimethylpentane would have an octane rating of more than 100.
+* PETROL AND OCTANE NUMBERS (The Physical Sciences Initiative)
+
+
+* Two octane rating methods are commonly used for automotive spark-ignition engine fuels, namely the research method and motor method (ASTM D2699 and ASTM D2700, respectively)
+* Initially the MON condition, with higher mixture temperature entering the engine and higher engine speed, was designed to be more representative of “higher severity” engine operation when compared to early vehicle road octane number testing. However, with the current trend of engine downsizing and boosting, the cylinder pressures and temperatures common of modern turbocharged gasoline direct injection (GDI) engines are more similar to, if not beyond, the relatively lower temperature and higher pressure RON conditions.
+* Combustion characteristics of various fuels during research octane number testing on an instrumented CFR F1/F2 engine (KOLODZIEJ, C., WALLNER, T)
+
+
+
+
+  
+
+Figure f1 - pump octane number (anti-knock index)
+
+
+* Overview: Octane number, efficient engines, ethanol, and infrastructure (Robert L. McCormick)
+
+
+  
+
+Figure f2 - octane number as a function of ethanol content
+
+
+  
+
+Figure f3 - Available Octane rating in the UK over the last century
+
+
+* In this respect, one interesting fact to emerge over recent years is that when alcohol blends are used as octane enhancing components in gasoline, the charge cooling effect brought about by the high latent heat of evaporation gives additional anti-knock characteristics, particularly under RON test conditions (which are closer to those experienced by highly boosted engines [4]). This effect becomes even more pronounced when these fuels are used in GDI engines, where the cooling effect of fuel vaporization is applied directly within the engine cylinders [5]. This means that the effective resistance to knock that these fuels give when used in direct-injection engines is increased disproportionately beyond the nominal RON / MON rating.
+* Minimising autoignition for optimum efficiency in high specific output spark ignited engines (Paul Freeland, Marco Warth, Bernd Mahr)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Mathematical Model of Gasoline Engines 
+4.1 Introduction
+  
+
+Figure 4.1 - Schematic of engine cylinder system
+
+
+For four-stroke engines that consist of the intake stroke, compression stroke, combustion stroke, and exhaust stroke, thermal energy is generated by the combustion of the compressed air–fuel mixture, and the thermal energy is transferred as the force acting on the piston. The force depends on the efficiency of the released energy conversion, which is called heat release, the air charge during the intake stroke, and the fuel injection. When the combustion finishes, the gas is pushed out through the exhaust valve. The opening–closing timing of the intake valve determines the amount of air charge, and the intake air mass flow rate depends also on the pressure and temperature of the intake manifold and the pressure and temperature of the cylinder. Hence, the variations of the pressure and temperature in the intake manifold cause the variation of the intake air mass flow rate. Furthermore, the produced thermal energy and the variations of the air mass flow rate passing the throttle valve and the intake valve follow the mass and energy conservation laws.
+        After two rotational revolutions of the crankshaft in this way, one cycle of the four-stroke engine is completed, and the next cycle follows. In other words, during one cycle, the engine torque is generated only once during the combustion, that is, during the 180 degrees in crank angle. For the engines with multicylinders, the cylinders are displaced according to a mechanical phase rule, and then the combustion stroke of each cylinder follows serially, and the force acting on the crankshaft is serially generated. Therefore, the rotational speed of the crankshaft is influenced by the amount of the air–fuel mixture, which is determined by the actuators, including the opening of the throttle valve, the individual opening–closing timing of the intake valve, the fuel injection, and the spark timing.
+        The above description shows that engine dynamics is determined by the physical principles in terms of mechanics, fluid, and combustion chemistry, such as Newton’s law and the first law of thermodynamics. However, it is not easy to precisely characterize the relevant phenomena. Moreover, from the perspective of system control, the engine exhibits a hybrid system that includes continuous and discrete dynamics.
+
+
+4.2 Physics
+        For the engine with multicylinders, the generated torque of the individual cylinder is mainly determined by the mass of the air charge and the fuel injection; moreover, it is also affected by the spark timing, the residual gas, the combustion efficiency, and so on. In fact, the fresh air enters the intake manifold through the throttle valve and is inducted into each cylinder through the intake valve of the individual intake port. This route is often called the air
+intake path. By applying certain pressure to the injectors, which are located at each intake port, the fuel is injected by the injectors and enters each cylinder with the inducted air. This process is called the fuel path. After a compression stroke in each cylinder, there is a combustion stroke, that is, the combustion process of the inducted air–fuel mixture. The pressure produced by the combustion acts on the piston to drive the connection rod for the rotational operation of the crankshaft. The above description is called the torque generation process. The generated torque in individual cylinders drives the rotational motion of the crankshaft. 
+Therefore, considering the throttle opening, fuel injection, and spark timing as actuators and dealing with engine speed as output, the air intake and fuel paths, the torque generation, and the mechanical rotational motion are the main components of the engine dynamical system, as shown in Figure 4.2. Moreover, the dynamics of each component depends on the crank angle, and this fact makes it easier to understand their effects to the rotational speed.
+
+
+  
+
+Figure 4.2 - Structure of engine dynamics
+
+
+The detailed engine model can be deduced based on the analysis of the characteristics of each component. Fundamental rules with respect to the physics are essential to achieve the modeling. For the air with fixed volume, such as in the intake manifold and the cylinder during the compression stroke, the ideal gas law is used to describe the variations of the air states. The mass conservation law and the first law of thermodynamics are useful for dealing with the energy transfer issue. Furthermore, the basic principle for the flow of fluids through an orifice is important for modeling the pipes with valves. Finally, the mechanical motion of the crankshaft is determined by Newton’s law.
+
+
+4.2.1 Ideal Gas Law
+The states of a hypothetical amount of ideal gas with mass m (kg) satisfy the following ideal gas state equation:
+        
+
+
+
+where p (Pa), V (m3), and T (K) denote the states of the gas, that is, the pressure, volume, and temperature, respectively, and R (J/[kg·K]) denotes the ideal gas constant.
+
+
+4.2.2 First Law of Thermodynamics
+        The first law of thermodynamics is the conservation of energy principle specialized for thermodynamical systems. For the gas with a fixed volume, the absorbed heat from outside of the system (dq), the work done by the gas to the outside (dw), and the variation in internal energy of the gas (du) satisfy the following energy conservation law:
+
+
+
+
+
+Specific heat capacity is a physical quantity for measuring the energy changes due to the changes of the gas states. The specific heat cv (J/[kg · K]) represents the ratio of the absorbed thermal energy to the variation in temperature of unit mass of the gas at constant volume, and correspondingly, the specific heat cp (J/[kg · K]) represents the ratio of the absorbed thermal energy to the variation in temperature of unit mass of the gas at constant pressure. The ratio of the specific heats is denoted as ? = cp/cv. Using the specific heats, the variation of the internal energy of the gas at a constant volume process can be described as follows.
+First, since no work is done by the gas at constant process, dw = 0. From the first law of thermodynamic, the following relationship is obtained:
+
+
+
+
+
+Then for unit mass of gas, the absorbed heat can be expressed as dq = cvdT ; hence, due to (2.3), the internal energy change of the gas
+
+
+
+
+
+can be calculated. Furthermore, discussions in the next section will depend on the following relationships on the specific heats. The total energy of a gas system is measured by the enthalpy h (J), which is defined as
+
+
+
+where u denotes the internal energy. At a constant pressure process, the work done by the gas is proportional to the variation of the volume. In other words, dw = pdV. Note that dp = 0; then the variation in the enthalpy is dh = du+ pdV, which from (2.2) can be calculated as
+
+
+
+
+
+Generally, values of the specific heats cp and cv are dependent on the temperature
+T. For ideal gas, cp and cv are constant, and from the enthalpy (2.5) and the ideal gas state equation (2.1), the following expressions can be obtained:
+
+
+
+
+
+4.2.3 Airflow Passing through an Orifice
+  
+        
+Figure 4.3 - Airflow passing through an orifice
+
+
+Consider the airflow passing through an orifice as shown in Figure 4.3. The air mass flow rate can be calculated by the following equation:
+
+
+
+ 
+
+
+where m (kg) denotes the air mass, A (m2) denotes the cross section of the orifice, p0 (Pa) and T0 (K) denote the upstream pressure and temperature, and p denotes the downstream pressure.
+
+
+4.3 Mean-Value Model
+Regarding the air intake path, assume that the fluid of each component is an ideal gas with constant specific heats cp and cv. Moreover, let pa and Ta denote the air pressure and temperature, and pm, Tm, Vm, and m denote the pressure, temperature, volume, and air mass of the intake manifold.
+Compared to the volume of the intake manifold, the volume of the intake pipe is negligibly small, and modeling of each cylinder results in nonsmooth representation of the air mass flow rate ?0. This causes the nonsmooth representation of the engine torque acting on the crankshaft. Neglecting this specific characteristic of the intake pipe, the simplified so-called mean-value engine model is obtained by averaging the air mass flow and engine torque equivalently.
+First, consider the air mass flow entering each cylinder from the manifold ?o. Let mo denote the air charge of each cylinder in one cycle, and assume that it can be accumulated in the manifold with volume Vo. Furthermore, suppose that its pressure and temperature are the same as those of the states of the manifold. Then applying the ideal gas law,
+
+
+
+gives the following relationship:
+
+
+
+
+
+where Vc denotes the displaced volume of the engine and ? = Vo/Vc is called the volumetric efficiency.
+
+
+4.4 Speed Control
+        Generally, the key issues in the engine speed control design can be considered as the following two aspects:
+Speed set-point regulation: In many situations, such as for dealing with the basic problem of idling speed control in automotives and for energy management in hybrid electric vehicles, the reference engine speed should be properly set for yielding high engine performance in terms of fuel economy, emission, and so forth.
+Load disturbance rejection: The rejection of the load disturbances is an essential task for the speed control system design.
+
+
+4.4.1 Idle Speed Control Scheme
+The structure of a general engine speed control system can be summarized as in Figure 4.4.
+
+
+  
+
+Figure 4.4 - Structure of general engine speed control system
+
+
+4.4.2 Starting Speed Control
+        Starting is a typical transient operating mode of SI engines. The starting operation can generally breakup into four phases. The crankshaft is initially driven to have a low constant rotational speed by the starting motor. Along the crank angle, the engine strokes of each cylinder follow. After the first ignition occurs in a cylinder, the driven torque on the crankshaft will be shifted from the starting motor to the engine. This will cause an acceleration of crank rotational velocity to achieve stable idle speed. The description shown above indicates that a basic requirement of engine starting is fast acceleration followed by quick convergence to a target idle speed.
+        However, during the starting, the engine characteristic changes rapidly. Following the transition of engine speed, manifold pressure will be down from the atmospheric pressure to a static value that is extremely far from its initial value. The walls of the intake manifold and cylinders will be warmed up due to the combustion in the cylinders. All of these changes will affect the performance of engine starting and will certainly cause great limitations to use the mean-value engine models to describe the behaviors during starting. Especially in real engines, a combustion event in a cylinder can fail if the A/F is beyond a certain range (generally, the range is 12–18). In other words, engine behavior has the state transition between fire and misfire, depending on the A/F, as shown in Figure 4.5. As mentioned above, due to the significant changes of the characteristics in the fuel path and air intake path, fuel injection control to guarantee successful combustion in an individual cylinder constrained by the A/F is more difficult.
+
+
+
+
+  
+
+Figure 4.5 - State transition of engine behaviour
+
+
+The starting conditions and the specified speed performance are described in Figure 4.6. The crankshaft is in a cranking state by the starting motor with an initial speed of 250±50 rpm, and the operation time of the starting motor is no longer than 1.5 s. During the cranking stage, combustion will occur in the cylinders along the crank angle, then the engine generates torque and the starting motor is turned off. According to the absolute crank angle value, which is usually measurable after the engine acquires synchronization during the starting operation, the first combustion event in the corresponding cylinder can be identified. Moreover, there should be no misfiring, and the control system is supposed to be convergent to the reference idle speed and not to cause oscillations.
+
+
+  
+
+Figure 4.6 - Image of starting speed with required specification
+
+
+The input signals for the control design are the throttle opening, fuel injection, and SA, and the output is the engine speed and the signals, including the crank angle, engine speed, and air mass flow rate through the throttle, which are measurable for control design.
+Challenging Points. Focusing on improving the transient performance of starting speed, the main challenges to solve the control problem include:
+
+
+1. Management of individual A/F for each cylinder with sufficient precision to guarantee successful combustion condition; that is, there is no misfire.
+2. Proper coordination among the multiactuators.
+3. Robustness with respect to different operating conditions of the engine, especially to the cooling water temperature associated with different starting conditions.
+
+
+4.5 Air-Fuel Ratio Control
+From the foregoing chapters, it is known that the main blocks of the gasoline engine are the fuel path and the air path that define the gas mixture entering the cylinder, the combustion block that determines the amount of torque produced by the engine, and the exhaust block with the three-way catalytic (TWC) converter that can remove emissions of hydrocarbon, carbon monoxide, and nitrogen oxide. The catalytic conversion efficiency for pollutant gases significantly depends on the precise value of air–fuel ratio (A/F), since only for a very narrow A/F band around stoichiometry can all three pollutant species (HC, CO, NOx) present in the exhaust gas be almost completely converted to the innocuous components water and carbon dioxide. In addition to the emission concerns, regulating A/F according to the stoichiometric value can also improve the fuel economy and provide efficient torque demands. Therefore, the main goal of A/F control is to maintain the A/F close to the stoichiometric value for efficient combustion, power performance, fuel economy, and optimal after-treatment conditioning, especially during transient operations such as acceleration, deceleration, and load changes.
+On the other hand, the gasoline engine is controlled by the relative air supply. The air mass flow into the manifold is controlled by the throttle opening, while the amount of fuel being mixed with the air is subsequently regulated by the injection command to the fuel injector metering the flow of fuel into the fuel path. It should be noted that the A/F is defined as the ratio of the air mass flow into the cylinder to the atomized fuel mass in the cylinder. Therefore, to control the A/F correctly at all times, especially in transients, the injected amount of fuel must be adapted to the air mass flow into the cylinder rather than into the intake manifold. However, the amount of air mass into the cylinder cannot be measured in practice; instead of direct measurement, it can be estimated. Consequently, in order to maintain the A/F close to the stoichiometric value in both steady-state and transient conditions, three main aspects are required: a correct estimation of air charge mass per inlet stroke for each cylinder, so-called cylinder air charge estimation; the fuel injection in the right amount, that is, precise fuel injection; and the closed-loop regulation of A/F utilizing the universal exhaust gas oxygen (UEGO) sensor.
+First, correct cylinder air charge estimation is an important aspect for the accurate control of A/F. At a static operation mode, it is not difficult to obtain a mean-value estimation of the cylinder air charge based on the measurement of air mass flow passing through the throttle valve and the engine speed. However, at a transient mode, the challenge of cylinder air charge estimation is due to the dynamics of the intake manifold, the intake-to-power or intake-to-exhaust delay, and the sensor delay. A reasonable way to deal with this challenge is to take into account the effect of the dynamics or the delay properties in the estimation.
+Precise fuel injection is another aspect deserving effort for the objective of A/F control. It is worth mentioning that its realization relies on the injection types—port injection, direct injection, or even dual injection—besides the correct amount of fuel required according to the cylinder air charge. The systems of direct injection and port injection show different dynamics, which leads to distinct performance during the transient mode of engine operations. The essential point is the wall-wetting phenomenon in the port injection path. This indicates that when the port injection is adopted, the amount of fuel injection should involve the compensation amount increased or reduced for the wall-wetting phenomenon.
+For achieving the accurate regulation of stoichiometric A/F, the closed loop control utilizing the feedback signal of the UEGO sensor is an essential part. Figure 4.7 shows the schematic of the A/F control system of gasoline engines. The feedback control is especially important when there exist inaccuracies in the air charge estimation and the wall-wetting compensation resulting from the wide engine operating range, the inherent nonlinearities of the combustion process, the large modeling uncertainties, and parameter variations. The uncertainty of plant parameters, depending on the operation mode, motivated the introduction of adaptive control algorithms into the fuel injection controller.
+
+
+  
+
+Figure 4.7 - Schematic of A/F control system of gasoline engines
+
+
+The basic principle of feedforward control is to adjust the control input according to the measured perturbation, including the variation of the setpoint input and the external disturbance, such that the effect of the measured perturbation on the process output is reduced or even eliminated to improve the control accuracy of the system output. The difference between feedforward and feedback lies in that feedforward control is based on knowledge about the measured perturbation, instead of error between the set-point value and the real value of the controlled variable. The measured signal in a feedforward system is the variation of perturbation rather than the controlled variable, and the control action in a feedforward system generates instantly following the perturbation action, without the need to wait until after the deviation occurs. However, feedforward control is always used along with feedback control because a feedback control system is required to track set-point changes and suppress unmeasured disturbances, while combined feedforward plus feedback control can significantly improve performance over simple feedback control whenever there is a major disturbance that can be measured before it affects the process output. Figure 4.8 gives the traditional block diagrams of two kinds of feedforward control systems.
+
+
+
+
+  
+
+Figure 4.8 - Feedforward control system
+
+
+Adaptive control is a control method used for a controller that must adapt to a system with unknown or time-varying parameters, so-called parameter uncertainty. It is well known that feedback is basically used in conventional control systems to reject the effect of disturbances upon the controlled variables and to bring them back to their desired values according to a certain performance index. To achieve this, the measurements of the controlled variables are compared with their desired values and the differences are fed into the controller, which will generate the appropriate control. In fact, a similar conceptual approach can be considered for solving the problem of achieving and maintaining the desired performance of a control system with parameter uncertainty. The calculated performance utilizing the inputs, the states, the outputs, and the known disturbances for the control system is compared to the desired performance, and their differences (if the real-time performance is not acceptable) will be fed into an adaptive mechanism. The adaptive mechanism modifies parameters of an adjustable controller or generates an auxiliary control in order to achieve the system performance accordingly within the set of acceptable ones. The adaptive mechanism and the adjustable controller constitute a complete adaptive controller. A block diagram illustrating a basic configuration of an adaptive control system is given in Figure 4.9. When designing adaptive control systems, special consideration of convergence and robustness issues is necessary.
+
+
+
+
+  
+
+Figure 4.9 - Basic configuration for an adaptive control system
+
+
+4.6 Balancing Control
+4.6.1 Introduction
+In internal combustion engines with multicylinders, each cylinder must generate an equal amount of torque. Furthermore, at a static operating mode, each combustion event in a cylinder must be performed in the same combustion quality. If this is not the case, then an imbalance will occur, and the engine will stumble and lose the smoothness in the power generation. The imbalance is due to the imbalances in the air intake path and the fueling path, the production errors among the cylinders, and the stochastic characteristics of the combustion phenomenon.
+
+
+4.6.2 Exhaust gas mixing model
+The challenge of the A/F balancing problem is the constraint from the single sensor. Generally, in multicylinder engines, several cylinders share a common exhaust manifold, and the ?-sensor for on-line detection of the A/F is usually equipped at the gas mixing point of the manifold where the exhaust gases from different cylinders come together and flow to the tailpipe.
+
+
+4.7 Residual Gas and Stochastic Control
+4.7.1 Introduction
+A four-stroke gasoline engine has four instinctive processes corresponding to the four strokes of each piston. For the sake of simplicity, assume that the valve-overlap angle is zero; in other words, the following induction stroke begins after the exhaust stroke ends. In induction stroke, the intake valve is open, and while the piston moves downward from top dead center (TDC) to bottom dead center (BDC), the cylinder is filled with a fresh air–fuel charge from the intake manifold for the port injection engine or with only fresh air from the intake manifold for direct injection engine, in which a fuel charge is directly injected into the cylinder in the following compression stroke. In the exhaust stroke, the exhaust valve opens,
+and the fluid in the combustion chamber is pushed out into the exhaust system. When the piston reaches TDC, the exhaust valve is closed and the current cycle is complete. However, the clearance volume in the cylinder is occupied by some burned gases after the exhaust stroke. The part of the burned gas remaining inside the cylinder is called residual gas. The residual gas is mixed with the fresh air–fuel charge during the intake stroke of the nest cycle.
+Residual gases are sometimes also called internal exhaust gas recirculation (EGR). As is well known, the EGR technique is used to decrease the fuel consumption at partial torque output, while preserving the acceleration capabilities of the engine. Accordingly, a certain amount of residual gas is beneficial to the increase of heat capacity of the air charged. Additionally, cyclic variation of the residual gas is an important fact that affects the engine performance, such as the air–fuel (A/F) and torque generation. Thus, management of the residual gas is a considerable issue in engine performance control. However, it should be noted that it is usually not easy to obtain information on the precise amount of the residual gas mass. Consequently, research attention involves methods of the residual gas measurement besides control algorithms considering the residual gas.
+        One of the most popular indexes to evaluate the level of cyclic residual gas is the residual gas fraction (RGF), which is a descriptive form of the relative amount with respect to the residual gas and the total air charge in the cylinder. In the literature, a definition of RGF is given, which is the ratio of the residual gas of the current cycle to the total gas in the next cycle. As an alternative, the RGF can also be defined as the ratio of the residual gas and the new air intake in the same cycle. The intended use of RGF is that it can be estimated by using some available physical variables, such as the measured cylinder pressure and the known cylinder volume, as well as the ideal gas law and thermodynamic relationships for the engine cycle. And then, RGF can be utilized in the feedback control design for the engine performance influenced by residual gas.
+        Another difficulty in dealing with the cyclic residual gas is the stochasticity. There are a lot of factors that influence the cyclic RGF, and it is not feasible to represent the influence mathematically in general. However, it is obvious that the RGF of the current cycle is mainly determined by the combustion state of the previous cycle, and the RGF of the current cycle has a great effect on the RGF of the next cycle. Noting the stochasticity of the RGF, a natural way to describe this characteristic is to model the cyclic RGF as a Markov chain.
+
+
+  
+
+Figure 4.10 - Residual gas phenomenon
