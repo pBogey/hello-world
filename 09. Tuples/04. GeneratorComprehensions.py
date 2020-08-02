@@ -8,11 +8,13 @@ Bogdan Prădatu - Fluent Python
 # protocol instead of building a whole list just to feed another constructor.
 symbols = "$¢£¥€¤"
 t = tuple(ord(symbol) for symbol in symbols)
-print("tuple:",t)
+print("tuple:", t)
+
 
 import array
 a = array.array("I", (ord(symbol) for symbol in symbols))
 print(a)
+
 
 colors = ["black", "white"]
 sizes = ["S", "M", "L"]

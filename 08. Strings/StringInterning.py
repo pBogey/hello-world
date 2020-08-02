@@ -20,9 +20,9 @@ c = "str"+"ing"
 d = "str"
 e = "ing"
 f = c+d
-g = "".join(["s","t","r","i","n","g"])
+g = "".join(["s", "t", "r", "i", "n", "g"])
 
-print("a is b:",a is b)
-print("a is c:",a is c)
-print("a is f:",a is f)
-print("a is g:",a is g)
+print("a is b:", a is b)
+print("a is c:", a is c)
+print("a is f:", a is f)
+print("a is g:", a is g)

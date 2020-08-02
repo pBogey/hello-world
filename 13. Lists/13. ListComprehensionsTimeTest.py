@@ -1,9 +1,7 @@
 import timeit
 
 
-
 TIMES = 10000
-
 
 
 SETUP = """
@@ -17,13 +15,11 @@ def non_ascii(c):
 """
 
 
-
 def clock(label, cmd):
 
     res = timeit.repeat(cmd, setup=SETUP, number=TIMES)
 
     print(label, *('{:.3f}'.format(x) for x in res))
-
 
 
 clock('listcomp        :', '[ord(s) for s in symbols if ord(s) > 127]')

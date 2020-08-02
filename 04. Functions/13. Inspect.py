@@ -7,5 +7,6 @@ Bogdan Prădatu - Fluent Python
 import Fruitful_functions
 import inspect
 
+
 for func in inspect.getmembers(Fruitful_functions, inspect.isfunction):
     print(func)
