@@ -3,7 +3,7 @@
 Bogdan Prădatu: Example from How to Think Like a Computer Scientist 3rd Edition
 """
 
-import turtle # Tess becomes a traffic light.
+import turtle  # Tess becomes a traffic light.
 
 turtle.setup(400,500)
 wn = turtle.Screen()
@@ -48,22 +48,23 @@ state_num = 0
 
 
 def advance_state_machine():
-    global state_num #do not create new local variable, instead use old one 
-    if state_num == 0: # Transition from state 0 to state 1
+    global state_num  # do not create new local variable, instead use old one
+    if state_num == 0:  # Transition from state 0 to state 1
         tess.forward(70)
         tess.fillcolor("orange")
         state_num = 1
-    elif state_num == 1: # Transition from state 1 to state 2
+    elif state_num == 1:  # Transition from state 1 to state 2
         tess.forward(70)
         tess.fillcolor("red")
         state_num = 2
-    else: # Transition from state 2 to state 0
+    else:  # Transition from state 2 to state 0
         tess.back(140)
         tess.fillcolor("green")
         state_num = 0
 
+
 # Bind the event handler to the space key.
 wn.onkey(advance_state_machine, "space")
 
-wn.listen() # Listen for events
+wn.listen()  # Listen for events
 wn.mainloop()

@@ -6,23 +6,27 @@ Bogdan Prădatu - Fluent Python
 
 registry = set()
 
-def register(active=True): # decorator factory
-    def decorate(func): # actual decorator
+
+def register(active=True):  # decorator factory
+    def decorate(func):  # actual decorator
         print(f'running register (active = {active} -> decorate{func}')
         if active:
             registry.add(func)
         else:
             registry.discard(func)
-        return func # decorators return functions
+        return func  # decorators return functions
     return decorate 
+
 
 @register(active=False)
 def f1():
     print('running f1()')
 
+
 @register()
 def f2():
     print('running f2()')
+
 
 def f3():
     print('running f3()')

@@ -4,7 +4,7 @@ Count Words in given text
 Bogdan Prădatu
 """
 
-text ="""
+test_text = """
 By taking a shape, by having a visible plan, you open yourself to attack. Instead of taking a form
 for your enemy to grasp keep yourself adaptable and on the move. Accept the fact that nothing is certain
 and no law is fixed. The best way to protect yourself is to be as fluid and formless as water; never bet
@@ -59,6 +59,7 @@ assume a form and go on the attack, use concentration, speed, and power."""
 
 punctuation = "~!@#$%^&*()_-=+[{]}\\|'\";:,<.>/?"
 
+
 def remove_punctuation(text):
     text_wo_punctuation = ""
     for word in text:
@@ -66,12 +67,14 @@ def remove_punctuation(text):
             text_wo_punctuation += word
     return text_wo_punctuation
 
+
 def count_words(text):
     words = remove_punctuation(text).lower().split()
     word_no = 0
     for word in words:
         word_no += 1
     return word_no
+
 
 def count_words_e(text):
     words = remove_punctuation(text).lower().split()
@@ -83,7 +86,10 @@ def count_words_e(text):
             continue
     return word_no_e    
 
-print("Your text contains",count_words(remove_punctuation(text)),
-      "words, of which",count_words_e(remove_punctuation(text)),
-      "contain the letter 'e'.")
+
+print(
+    "Your text contains", count_words(remove_punctuation(test_text)),
+    "words, of which", count_words_e(remove_punctuation(test_text)),
+    "contain the letter 'e'.")
+
 
